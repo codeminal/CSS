@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    div{
+     width: 100px;
+     height: 100px;
+     background-color: darkred;
+     animation-name: a;
+     animation-duration: 8s;
+     position: relative;
+     animation-delay: 2s;
+     animation-iteration-count: infinite
+    }
+    @keyframes a{
+      0% {
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+      }
+      25% {
+        background-color: blueviolet;
+        left: 200px;
+        top: 0px;
+        border-radius: 50%;
+       border: 2px soliddeeppink;
+      
+      }
+      50% {
+       background-color: purple;
+       top: 200px;
+       left: 200px;
+       border-radius: 0px;
+      }
+      75% {
+        background-color: black;
+        top: 200px;
+        right:200px;
+        border-radius: 50%;
+      }
+      100% {
+        background-color: orangered;
+        top: 0px;
+        left: 0px;
+      }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
